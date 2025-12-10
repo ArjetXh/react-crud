@@ -1,0 +1,217 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #F4F5F6;
+}
+
+.count-text {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40.85px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.count-onhold {
+  background: #fe4c4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.count-inprogress {
+  background: #ecde7c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.count-completed {
+  background: #7ac14d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.create-btn {
+  background: #71cf48;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  color: #ffffff;
+  padding:6px 15px;
+  margin-right:15px;
+}
+.create-btn:hover {
+  background: transparent;
+  border: 1px solid #71cf48;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  color: black;
+}
+.cancel-btn{
+    background: #EB4345;
+    font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-align: left;
+  color: #ffffff;
+  padding:6px 15px;
+  margin-right:15px;
+}
+.table-title {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: left;
+  color: #323338;
+}
+.jobsite-title {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.07px;
+  text-align: left;
+  color: #1264a3;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  border-color: transparent !important;
+}
+
+.badge-in-progress {
+  background-color: #ecde7c;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.badge-completed {
+  background-color: #7ac14d;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.badge-on-hold {
+  background-color: #fe4c4a;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+}
+.table-striped{
+    box-shadow: 0px 1px 4px 0px #00000040;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #F8F8FA;
+ }
+.jobsite{
+    background-color: white;
+    margin-top:40px;
+    padding-top:10px;
+}
+.inline-grid{
+    display:inline-grid;
+}
+
+
+/* Pagination btn */
+
+.prev-btn{
+  border-radius: 5px;
+  background-color: #bacbf3;
+  border: 1px solid #bacbf3;
+  margin-right: 5px;
+  margin-bottom:5px;
+  }
+  .next-btn{
+    border-radius: 5px;
+    background-color: #bacbf3;
+    border: 1px solid #bacbf3;
+    margin-left: 5px;
+    margin-bottom:5px;
+    }
+  
+/* Inventory Page */
+
+
+.inventory-page .category-buttons button {
+    padding: 0px;
+    height:40px;
+    width:100px;
+    font-size:14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top:5px;
+}
+
+.inventory-page  .category-scaffold {
+    background: #ffffff;
+    color: black;
+    box-shadow: 0px 1px 4px 0px #00000040 !important;
+}
+
+.inventory-page  .category-scaffold:hover {
+    background-color: #EFD652;
+    color: #FFFFFF ;
+}
+.inventory-page .category-scaffold.active {
+  background: #EFD652; 
+  color: white;
+}
+
+.inventory-page .category-sidewalk-shed {
+  background-color: #ffffff; 
+  color: black;
+  box-shadow: 0px 1px 4px 0px #00000040 !important;
+}
+
+.inventory-page .category-sidewalk-shed:hover {
+  background: #67AA3C;
+  color: #ffffff;
+}
+
+.inventory-page .category-sidewalk-shed.active {
+  background: #67AA3C; 
+  color: white;
+}
+.inventory-page  .category-shoring {
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0px 1px 4px 0px #00000040 !important;
+}
+
+.inventory-page .category-shoring:hover {
+    background: #9640BE;
+    color:#ffffff;
+}
+.inventory-page .category-shoring.active {
+  background: #9640BE;
+  color:#ffffff;
+}
+
+
