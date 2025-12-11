@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Select, from "react-select";
+import { Select } from "react-select";
 import { Modal } from "bootstrap";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './../assets/style.css'
